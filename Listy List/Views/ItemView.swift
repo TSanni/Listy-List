@@ -150,7 +150,7 @@ struct ItemView: View {
                         }
 
                     }
-                    .onDelete(perform: deleteItem)
+//                    .onDelete(perform: deleteItem)
                 }
             }
             .alert(isPresented: $isShowingAddItemAlert, TextAlert(title: "Add an Item", message: "", action: { result in
